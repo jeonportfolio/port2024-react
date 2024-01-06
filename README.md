@@ -6,9 +6,9 @@
 각 프레임워크들의 장단점을 비교 분석하며 학습하게 됩니다.
 
  
-2. [react.js](https://github.com/webstoryboy/port2023-react)를 이용하여 사이트를 제작합니다. 
-3. [vue.js](https://github.com/webstoryboy/port2023-vue)를 이용하여 사이트를 제작합니다.
-4. [next.js](https://github.com/webstoryboy/port2023-next)를 이용하여 사이트를 제작합니다.
+1. [react.js]를 이용하여 사이트를 제작합니다. 
+2. [vue.js]를 이용하여 사이트를 제작합니다.
+3. [next.js]를 이용하여 사이트를 제작합니다.
 
 이 튜토리얼은 포트폴리오 컨셉의 사이트를 4가지 버전으로 반복하여 만들어 보면서, 프론트앤드 개발의 시발점이 될 수 있는 튜토리업입니다.
 자바스크립트 프레임워크를 통해 사이트를 효율적으로 만들어 보는 방법을 익힙니다. 
@@ -23,7 +23,7 @@
 - lenis(https://lenis.studiofreight.com/) 를 이용하여 스므스 효과를 구현합니다.
 - netlify(https://www.netlify.com/) 를 통해 사이트를 배포합니다.
 - git(https://github.com/) 을 사용하여 파일을 관리합니다.
-- HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다. [ARIA(Accessible Rich Internet Applications)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+- HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다. [ARIA(Accessible Rich Internet Applications)]
 
 ## 프로젝트 실행
 - react를 설치합니다. `npx create-react-app 타이틀`
@@ -31,4 +31,3 @@
 - sass를 설치합니다. `npm install sass`
 - gsap를 설치합니다. `npm install gsap`
 - lenis를 설치합니다. `npm install @studio-freight/lenis`
-출처: https://webstoryboy.co.kr/1934 [WEBSTORYBOY:티스토리]
