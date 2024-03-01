@@ -1,5 +1,5 @@
 #intro {
-    height: 100vh;
+    height: 100vh; //화면을 100등분해서 채웠다는 의미
 }
 
 .intro__inner {
@@ -7,12 +7,12 @@
     height: 100%;
     align-items: flex-start;
     justify-content: flex-end;
-    flex-direction: column;
+    flex-direction: column; //줄바꿈을 해주어 선이 글씨 밑으로 나오게 하기 위함
     padding: 16px;
     margin-top: 60px;
 
     @media (max-width: 800px){
-        justify-content: center;
+        justify-content: center;// pc화면에서는 내려가 있다가 핸폰 화면에서는 중앙에 위치
 
     }
     
@@ -21,8 +21,8 @@
         text-transform: uppercase;
         line-height: 1;
         font-weight: 800;
-        white-space: nowrap;
-        text-indent: -0.5vw;
+        white-space: nowrap;//글씨 한줄 만들기
+        text-indent: -0.5vw; //글씨 들여쓰기
         letter-spacing: -0.3vw;
 
         @media(max-width: 320px){
@@ -65,7 +65,7 @@
             height: 30vh;
             border-radius: 50%;
             overflow: hidden;
-            filter: grayscale(100%);
+            filter: grayscale(100%);//완전히 흑백으로 처리하게 하는 것이다.
             transition: all 0.3s;
 
             @media(max-width: 320px){
@@ -97,7 +97,7 @@
             &:nth-child(1) {
                 height: 1px;
             }
-            &:nth-child(1) {
+            &:nth-child(2) {
                 height: 2px;
             }
             &:nth-child(3) {

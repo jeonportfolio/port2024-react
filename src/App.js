@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Route, Routes} from "react-router-dom"
+import {BrowserRouter, Route, Routes} from "react-router-dom"//주소설정해주는 섹터
 import HomeView from "./views/HomeView";
 import AboutView from "./views/AboutView";
 

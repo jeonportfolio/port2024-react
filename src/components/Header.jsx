@@ -21,6 +21,7 @@ const headerNav = [
         title: "contact",
         url:"#contact"
     }
+        //ul li a 를 배열화 시켜준 것이다.
 ]
 
 const Header = () => {
@@ -48,6 +49,7 @@ const Header = () => {
                     </li>
                 ))}
                 {/* key값을 부여해 각각의 인덱스의 고유의 값을 부여해 에러가 나지 않게 한다. */}
+                {/* 위에 정의한 headerNav의 값을 가져오는 스크립트 또한 react에서는 class를 쓰지 않는다 className*/}
             </ul>
         </nav>
         <div 
@@ -56,7 +58,7 @@ const Header = () => {
             aria-controls="primary-menu" 
             aria-expanded={show ? "true" : "false"}
             role="button" 
-            tabIndex="0"
+            tabIndex="0" //모바일일때 tab키를 누르면 바로 메뉴로 갈 수 있게 해줌 
             onClick={toggleMenu}
         >
                 <span></span>

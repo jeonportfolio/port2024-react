@@ -23,7 +23,8 @@ const Skill = () => {
             <div className="skill__desc">
                  {skillText.map((skill, key) => (
                      <div key={key}>
-                          <span>{key+1}</span>
+                          <span>{key+1}</span> 
+                          {/* 0부터 나오기 때문에 +1을 해준것 */}
                           <h3>{skill.title}</h3>
                           <p>{skill.desc}</p>
                       </div>

@@ -5,11 +5,11 @@
 
 .header__inner {
     @include flex-between;
-    background-color: rgba(116, 99, 99, 0.1);
+    background-color:  rgba(116, 99, 99, 0.1);
     backdrop-filter: blur(15px);
     padding: 1rem;
     .header__logo {
-        font-size: 2.0rem;
+        font-size: 2.0rem; //1rem은 16px기준 root기준으로 바뀐다.rem은 미세하게 바뀌는 것 
         text-align: center;
         text-transform: uppercase;
         line-height: 1;
@@ -24,7 +24,7 @@
         @media (max-width: 800px){
             display: none;
 
-            &.show {
+            &.show { //show가 생겼을때 메뉴창이 나오게 하는 설정 
                 display: block;
 
                 ul {
@@ -32,7 +32,7 @@
                     position: absolute;
                     right: 0;
                     top: 68px;
-                    background-color: #dedada;
+                    background-color: #e2e0e0;
                     opacity: 90%;
                     backdrop-filter: blur(15px);
                     z-index: 10000;
@@ -68,7 +68,7 @@
                 padding: 14px;
                 position: relative;
     
-                &::before {
+                &::before {       //메뉴명에 밑줄생김
                     content: '';
                     width: calc(100% - 28px);
                     height: 1px;
@@ -76,12 +76,12 @@
                     position: absolute;
                     left: 14px;
                     bottom: 10px;
-                    transform: scaleX(0);
+                    transform: scaleX(0); //가로의 크기가 0이여서 보이지 않게됨 
                     transition: all 0.3s;
                 }
     
                 &:hover::before {
-                    transform: scaleX(1);
+                    transform: scaleX(1);  //scale을 0에서 1로 주게되면 없어졌다가 다시 나타남
                 }
             }
         }
@@ -107,7 +107,7 @@
         }
 
         &::before {
-            content: "";
+            content: "";   
             width: 40px;
             height: 2px;
             background-color: var(--black);

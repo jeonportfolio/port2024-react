@@ -24,7 +24,7 @@ const HomeView = () => {
           <Contact />
         </Main>
         <Footer />
-    </div>
+    </div>//부모역할의  div가 필요하다
   )
 }
 

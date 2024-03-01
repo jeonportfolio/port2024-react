@@ -14,7 +14,7 @@ const Intro = () => {
             <h1 className="intro__title">
                 {introText.title}
             </h1>
-            <div className="intro__lines" aria-hidden="true">
+            <div className="intro__lines" aria-hidden="true">  
                 <span className="line"></span>
                 <span className="line"></span>
                 <span className="line"></span>
