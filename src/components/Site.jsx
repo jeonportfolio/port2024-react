@@ -4,44 +4,44 @@ const siteText = [
   {
       text: ["make", "site compliant with", "webstandard"],
       title: "비트를 이용한 사이트 제작",
-      code: "https://github.com/webstoryboy/port2023-vite",
-      view: "https://port2023-vite.netlify.app",
+      code: "",
+      view: "",
       info: [
           "site coding",
-          "production period : two days",
+          "production period : ",
           "use stack : HTML5/CSS3, CSS Variable, Vite",
       ],
   },
   {
       text: ["make", "site compliant with", "react.js"],
       title: "리액트를 이용한 사이트 제작",
-      code: "https://github.com/webstoryboy/port2023-react",
-      view: "https://port2023-react.netlify.app",
+      code: "",
+      view: "",
       info: [
           "site coding",
-          "production period : two days",
+          "production period : ",
           "use stack : HTML5/CSS3, CSS Variable, Vite",
       ],
   },
   {
       text: ["make", "site compliant with", "vue.js"],
       title: "뷰를 이용한 사이트 제작",
-      code: "https://github.com/webstoryboy/port2023-vue",
-      view: "https://port2023-vue.netlify.app",
+      code: "",
+      view: "",
       info: [
           "site coding",
-          "production period : two days",
+          "production period : ",
           "use stack : HTML5/CSS3, Scss Variable, vue",
       ],
   },
   {
       text: ["make", "site compliant with", "next.js"],
       title: "넥스트를 이용한 사이트 제작",
-      code: "https://github.com/webstoryboy/port2023-next",
-      view: "https://port2023-next.netlify.app",
+      code: "",
+      view: "",
       info: [
           "site coding",
-          "production period : two days",
+          "production period : ",
           "use stack : HTML5/CSS3, Scss Variable, next.js",
       ],
   },
@@ -66,8 +66,8 @@ const Site = () => {
                           {site.title}
                       </h3>
                       <div className="btn">
-                          <a href = {site.code}>code</a>
-                          <a href = {site.view}>view</a>
+                          <a href = {site.code}>code보기</a>
+                          <a href = {site.view}>site보기</a>
                       </div>
                       <div className="info">
                           <span>{site.info[0]}</span>
