@@ -1,28 +1,7 @@
 import React, {useState} from "react"
 
-const headerNav = [
-    {
-        title: "intro",
-        url:"#intro"
-    },
-    {
-        title: "skill",
-        url:"#skill"
-    },
-    {
-        title: "site",
-        url:"#site"
-    },
-    {
-        title: "portfolio",
-        url:"#portfolio"
-    },
-    {
-        title: "contact",
-        url:"#contact"
-    }
-        //ul li a 를 배열화 시켜준 것이다.
-]
+import { headerNav } from "../constants";
+
 
 const Header = () => {
     const[show, setShow] = useState(false);
@@ -69,4 +48,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

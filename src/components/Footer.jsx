@@ -1,42 +1,7 @@
 import React from "react";
 
-const footerText = [
-  {
-      title: "youtube",
-      desc: "유튜브",
-      link: "/",
-  },
-  {
-      title: "github",
-      desc: "깃헙",
-      link: "/",
-  },
-  {
-      title: "blog",
-      desc: "블로그",
-      link: "/",
-  },
-  {
-      title: "gsap",
-      desc: "GSAP",
-      link: "/",
-  },
-  {
-      title: "react",
-      desc: "리액트",
-      link: "/",
-  },
-  {
-      title: "vue",
-      desc: "뷰",
-      link: "/",
-  },
-  {
-      title: "next",
-      desc: "넥스트",
-      link: "/",
-  },
-];
+import { footerText } from "../constants";
+
 
 const Footer = () => {
   return (

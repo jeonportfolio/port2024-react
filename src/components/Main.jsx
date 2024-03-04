@@ -8,4 +8,4 @@ const Main = ( {children} ) => { //main 안에 컴포넌트 요소들을 집어 
   )
 }
 
-export default Main
+export default Main;
