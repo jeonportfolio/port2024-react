@@ -14,7 +14,7 @@ const Header = () => {
     <header id="header" role="banner">
     <div className="header__inner">
         <div className="header__logo">
-            <a href="/">portfolio<em>react.js</em></a>
+            <a href="/">portfolio<em>react.js(WOOD CONCEPT)</em></a>
         </div>
         <nav 
             className={`header__nav ${show ? "show" : ""}`} 

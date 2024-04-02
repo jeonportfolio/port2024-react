@@ -35,8 +35,9 @@ export const headerNav = [
 ]
 
 export const introText = {
-    title:"port developer",
-    desc: ["talent is", "found at the end of the","effort"]
+    title:"FRONT developer",
+    desc: ["사용기술스택 -> CLICK"]
+   
   }
 
   export const skillText = [
@@ -109,10 +110,10 @@ export const portText = [
     {
         num: "01",
         title: "어워드에도 올라간 포트폴리오",
-        desc: "라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다. 가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다. 이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.",
+        desc: "라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다",
         img: port01,
-        code: "/",
-        view: "/",
+        code: "https://jeonportfolio.github.io/webdesign/실기실습모음/A유형(강원천문대)/index.html",
+        view: "https://jeonportfolio.github.io/webdesign/실기실습모음/A유형(강원천문대)/index.html",
         name: "포트폴리오",
     },
     {
@@ -196,6 +197,16 @@ export const portText = [
         view: "/",
         name: "포트폴리오",
     },
+    {
+        num: "11",
+        title: "모던함의 정석 포트폴리오",
+        desc: "현대적이고 세련된 디자인으로 가득한 포트폴리오 사이트입니다. 모던한 느낌과 세심한 디테일이 조화를 이루며, 사용자에게 신선하고 품격 있는 경험을 제공합니다. 사이트의 디자인은 깔끔하고 단정하면서도 특유의 감성과 풍부한 표현력이 느껴집니다. 간결한 레이아웃과 모던한 색상 선택은 주인공의 디자인 감각을 잘 보여주는 특징입니다.",
+        img: port10,
+        code: "/",
+        view: "/",
+        name: "포트폴리오",
+    },
+
 ];
 
 

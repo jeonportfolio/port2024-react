@@ -28,13 +28,13 @@
     .port__wrap {
         display: flex;
         flex-wrap: wrap;
-        width: 7000px;
+        width: 7500px;
 
         .port__item {
             width: 500px;
             height: 100vh;
             background-color: var(--subBg100);
-            padding: 2.5rem;
+            padding: 1.5rem;
             margin-right: 20px;
 
             &.p1 {
@@ -67,14 +67,18 @@
             &.p10 {
                 background-color: var(--subBg500);
             }
+            &.p11 {
+                background-color: var(--subBg500);
+            }
+           
             .num {
                 font-size: 2rem;
                 font-family: var(--mainNum-font);
             }
             .img {
                 display: block;
-                margin-top: 20px;
-                transition: margin-top 0.3s;
+                transition: margin-top 0.4s;
+                margin-top: 5px;
 
                 img {
                     border-radius: 5px;
@@ -94,7 +98,7 @@
             .title {
                 font-size: 1.5rem;
                 text-align: center;
-                padding: 0.8rem 0;
+                padding: 0.3rem 0;
                 font-weight: 700;
                 color: var(--black100);
                 border-bottom: 2px solid var(--black100);
