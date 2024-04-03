@@ -21,7 +21,7 @@
         }
     }
     .header__nav {
-        @media (max-width: 800px){
+        @media (max-width: 815px){
             display: none;
 
             &.show { //show가 생겼을때 메뉴창이 나오게 하는 설정 
@@ -93,7 +93,7 @@
         cursor: pointer;
         position: relative;
 
-        @media (max-width: 800px){
+        @media (max-width: 815px){
             display: block;
         }
         

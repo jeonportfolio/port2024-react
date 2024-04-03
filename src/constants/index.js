@@ -36,7 +36,7 @@ export const headerNav = [
 
 export const introText = {
     title:"FRONT developer",
-    desc: ["사용기술스택 -> CLICK"]
+    desc: ["사용기술스택 -> CLICK", "WELCOME"]
    
   }
 

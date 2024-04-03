@@ -25,6 +25,10 @@
         text-indent: -0.5vw; //글씨 들여쓰기
         letter-spacing: -0.3vw;
 
+        @media(max-width: 1500px){
+            font-size: 9.3vw;
+        }
+
         @media(max-width: 600px){
             font-size: 8vw;
         }
@@ -57,10 +61,20 @@
             cursor: all-scroll;
             margin-left: 150px;
     
-           
-            @media(max-width: 800px){
-                font-size: 25px;
-                white-space: nowrap;     
+            @media(max-width: 1300px){
+                font-size: 40px;
+            }
+            @media(max-width: 600px){
+                left:5%;
+            }
+            @media(max-width: 750px){
+                font-size: 30px;
+            }
+            @media(max-width: 600px){
+                left:5%;
+            }
+            @media(max-width: 550px){
+                    display: none;
             }
         }
 
@@ -77,23 +91,34 @@
             filter: grayscale(100%);//완전히 흑백으로 처리하게 하는 것이다.
             transition: all 0.3s;
 
-            @media(max-width: 1116px){
-                width: 30vh;
-                height: 30vh;
+            @media(max-width: 1000px){
+                width: 20vh;
+                height: 20vh;
             }
 
-            @media(max-width: 400px){
+            @media(max-width: 550px){
+                width: 25vh;
+                height: 25vh;
+                left: 50%;
+            }
+
+            @media(max-width: 350px){
                 width: 15vh;
                 height: 15vh;
+                left: 50%;
             }
           
           
 
         }
         .mini__image {
-                display: flex;
+                display: inline-block;
                 
-
+                
+                @media(max-width: 550px){
+                    display: none;
+                }
+               
                 .img1{    
                     position: absolute;
                     left: 50%;
@@ -105,16 +130,14 @@
                     overflow: hidden;
                     transition: all 0.3s;
                     opacity: 0;
-                   
 
-                    @media(max-width: 1000px){
+                    @media(max-width: 900px){
                         width: 10vh;
                         height: 10vh;
                     }
-                    @media(max-width: 977px){
-                       
-                        margin-right: 10px;
-                    }
+
+                   
+
                 }
                 .img2{    
                     position: absolute;
@@ -129,10 +152,11 @@
                     transition: all 0.3s;
                     opacity: 0;
                     
-                    @media(max-width: 1000px){
+                    @media(max-width: 900px){
                         width: 10vh;
-                        height: 10vh;
+                        height: 10vh;           
                     }
+                    
                 }
                 .img3{    
                     position: absolute;
@@ -146,14 +170,21 @@
                     transition: all 0.3s;
                     opacity: 0;
 
-                    @media(max-width: 1000px){
+                    @media(max-width: 900px){
                         width: 10vh;
                         height: 10vh;
                     }
+                   
                 }
         }
         .mini__image2 {
-            display: flex;
+            display: inline-block;
+
+
+            @media(max-width: 550px){
+                display: none;
+            }
+
             h1 {
                 font-size: 1vw;
             }
@@ -170,10 +201,11 @@
                 transition: all 0.3s;
                 opacity: 0;
 
-                @media(max-width: 1000px){
+                @media(max-width: 900px){
                     width: 10vh;
                     height: 10vh;
                 }
+              
             }
             .img5{    
                 position: absolute;
@@ -188,10 +220,11 @@
                 transition: all 0.3s;
                 opacity: 0;
 
-                @media(max-width: 1000px){
+                @media(max-width: 900px){
                     width: 10vh;
                     height: 10vh;
                 }
+               
             }
             .img6{    
                 position: absolute;
@@ -205,10 +238,11 @@
                 transition: all 0.3s;
                 opacity: 0;
 
-                @media(max-width: 1000px){
+                @media(max-width: 900px){
                     width: 10vh;
                     height: 10vh;
                 }
+              
             }
     }
 
