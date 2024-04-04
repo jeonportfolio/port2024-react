@@ -8,8 +8,8 @@ const Footer = () => {
       <footer id="footer" role="contentinfo">
           <div className="footer__inner">
               <div className="footer__text">
-                  <span>webstoryboy</span>
-                  <span>© webs</span>
+                  <span>jeon</span>
+                  <span>© jeon's</span>
               </div>
               <div className="footer__info">
                   <div className="left">

@@ -16,12 +16,12 @@ const Port = () => {
         const sections = sectionRef.current;
     
         let scrollTween =gsap.to(sections, {
-            xPercent: -120 * (sections.length -1),
+            xPercent: -140 * (sections.length -1),
             // 현재의 넓이는 빼주는 것 
             ease: "none",
             scrollTrigger: {
                 trigger: horizontal,
-                start: "top 56px",
+                start: "top 30px",
                 end: () => "+=" + horizontal.offsetWidth,
                 pin: true,
                 scrub: 1,
