@@ -13,4 +13,6 @@ const link = () => {
     });
 };
 
+//메뉴를 클릭하면 해당 메뉴로 이동하는 기능 smooth효과도 넣어줌)
+
 export default link;

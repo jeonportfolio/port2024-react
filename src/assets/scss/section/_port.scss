@@ -16,9 +16,19 @@
         text-transform: uppercase;
         color: var(--black100);
         border-bottom: 0.4vw solid var(--black100);
-        margin-bottom: 16px;
+        margin-bottom: 8px;
         text-indent: -0.26vw;
         margin-left: -35px;
+
+        @media (max-width: 800px){
+            width: 100%;
+            margin-bottom: 1vw;
+            font-size: 30px;
+            height: auto;
+            top: 68px;
+            z-index: 1000;
+            background-color: var(--mainBg-color);
+        }
 
         em {
             font-size: 1.25rem;
