@@ -35,7 +35,7 @@ export const headerNav = [
 ]
 
 export const introText = {
-    title:"FRONT developer",
+    title:"FRONTEND PORT",
     desc: ["사용기술스택 -> CLICK", "WELCOME"]
    
   }
@@ -43,7 +43,7 @@ export const introText = {
   export const skillText = [
     {
       title: "도전을 멈추지 않는 프론트엔드를 꿈꾸는 '전선욱' 입니다.",
-      desc: `자신의 부족한 점을 항상 되돌아보며 꾸준히 개발하는 것 자신의 역할에 최선을 다하며 역경이 와도 목표를 향해 꾸준히 나아가는것을 중요시 생각합니다 
+      desc: `자신의 부족한 점을 항상 되돌아보며 꾸준히 개발하는 것 자신의 역할에 최선을 다하며 역경이 와도 목표를 향해 꾸준히 나아가는것을 중요시 생각합니다
       웹디자인 기능사를 통해 프론트엔드의 꿈을 키워왔고  바리스타 자격증을 취득하여 카페에서 근무했으며 컴퓨터 활용능력과 마케팅 주식관련 지식으로 머니스테이션 인턴과정을 
       수행했습니다 이와 같이 결과물에 그치지 않고 발전시켜 나가는 것을 모토로 하고 있습니다.`
     },
@@ -59,14 +59,13 @@ export const introText = {
 
   export const siteText = [
     {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "비트를 이용한 사이트 제작",
-        code: "",
-        view: "",
+        text: ["REACT.JS", "Wood Mode", "Portfolio Site"],
+        title: "React.js 포트폴리오(첫번째 모드<나무 컨셉>)",
+        code: "https://github.com/jeonportfolio/port2024-react",
+        view: "/",
         info: [
-            "site coding",
-            "production period : ",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
+            "REACT.js portfolio",
+            "use stack : React.js, SCSS, gsap",
         ],
     },
     {
@@ -81,27 +80,26 @@ export const introText = {
         ],
     },
     {
-        text: ["make", "site compliant with", "vue.js"],
-        title: "뷰를 이용한 사이트 제작",
-        code: "",
-        view: "",
+        text: ["NEXT.JS", "Dark Mode", "Portfolio Site"],
+        title: "Next.js 포트폴리오(두번째 모드<다크 컨셉>)",
+        code: "https://github.com/jeonportfolio/port2024-next",
+        view: "/",
         info: [
-            "site coding",
-            "production period : ",
-            "use stack : HTML5/CSS3, Scss Variable, vue",
+            "NEXT.js portfolio",
+            "use stack : Next.js, SCSS, gsap",
         ],
     },
     {
-        text: ["make", "site compliant with", "next.js"],
-        title: "넥스트를 이용한 사이트 제작",
-        code: "",
-        view: "",
+        text: ["VUE.JS", "Rainbow Mode", "Portfolio Site"],
+        title: "Vue.js 포트폴리오(세번째 모드<무지개 컨셉>)",
+        code: "https://github.com/jeonportfolio/port2024-vue",
+        view: "/",
         info: [
-            "site coding",
-            "production period : ",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            "VUE.js portfolio",
+            "use stack : Vue.js, SCSS, gsap",
         ],
     },
+   
   ];
 
 
@@ -110,48 +108,48 @@ export const introText = {
 export const portText = [
     {
         num: "01",
-        title: "웹디자인기능사 공부법 관련 사이트",
+        title: "웹디자인기능사 사이트 (PC화면)",
         desc: "피그마 & HTML & CSS를 웹디자인기능사 기술을 활용한 사이트입니다. 저의 웹디자인기능사 공부법을 공유하였습니다.",
         img: port01,
-        code: "https://jeonportfolio.github.io/webdesign/실기실습모음/A유형(강원천문대)/index.html",
-        view: "https://jeonportfolio.github.io/webdesign/실기실습모음/A유형(강원천문대)/index.html",
-        name: "포트폴리오",
+        code: "https://github.com/jeonportfolio/FIGMA-WEB",
+        view: "https://jeonportfolio.github.io/FIGMA-WEB/figma%20portfolio.html",
+        name: "웹디자인 기능사",
     },
     {
         num: "02",
-        title: "나만의 유튜브 사이트",
-        desc: "REACT를 활용해 나만의 자기개발 관련 카테고리를 구성한 유튜브 사이트 입니다.API를 활용해 검색과 영상재생이 가능합니다. ",
+        title: "나만의 유튜브 사이트(반응형)",
+        desc: "REACT & RAPID API를 활용해 나만의 자기개발 관련 카테고리를 구성한 유튜브 사이트 입니다 검색과 영상재생이 가능합니다. ★모바일에서 메뉴 생성은 로고클릭!! ",
         img: port02,
-        code: "/",
-        view: "/",
-        name: " 포트폴리오",
+        code: "https://react-myyoutube.netlify.app",
+        view: "https://react-myyoutube.netlify.app",
+        name: "나만의 youtube",
     },
     {
         num: "03",
-        title: "열정이 넘치는 포트폴리오",
-        desc: "GSAP 패럴랙스에서의 각종 애니메이션을 사용해 블로그를 소개하는 페이지 입니다. ",
+        title: "블로그 소개 페이지(PC버젼)",
+        desc: "HTML/CSS/JAVA SCRIPT를 사용하여 자격증/aws/공모전 등 활동 기록들을 소개하는 페이지입니다. ",
         img: port03,
         code: "/",
         view: "/",
-        name: " 포트폴리오",
+        name: "블로그 소개",
     },
     {
         num: "04",
-        title: "모던한 포트폴리오",
-        desc: "블랙 컨셉과 애니메이션이 돋보이는 포트폴리오 사이트입니다. GSAP를 통한 애니메이션과 NEXT.js를 통해 제작된 포트폴리오입니다. pin 애니메이션을 통한 포폴 작업물의 표현 능력이 돋보이는 사이트입니다.",
+        title: "인턴과정 소개 (PC 화면)",
+        desc: "GSAP을 활용한 애니메이션을 추가하여 저의 인턴활동 과정을 소개하는 페이지입니다",
         img: port04,
-        code: "/",
-        view: "/",
-        name: "포트폴리오",
+        code: "https://github.com/jeonportfolio/GSAP-intern",
+        view: "https://jeonportfolio.github.io/GSAP-intern/INTERN.html",
+        name: "인턴과정 소개",
     },
     {
         num: "05",
-        title: "가로모드의 정석 포트폴리오",
-        desc: "이 포트폴리오는 가로모드를 통해 눈에 띄는 애니메이션 효과를 가진 멋진 작품들이 펼쳐집니다. 세션 간의 부드러운 전환과 흥미로운 움직임이 사용자들에게 색다른 경험을 선사합니다. 사이트에는 탁월한 디자인과 창의적인 애니메이션들이 어우러져, 사용자들에게 인상적인 시각적인 효과를 줍니다. 애니메이션은 적절히 사용되어 사이트를 더욱 생동감 있게 만들어주는 포트폴리오입니다.",
+        title: "게임 소개 페이지 (PC버젼)",
+        desc: "GSAP을 활용해 javascript를 이용해 만든 3종 게임 소개 페이지 입니다.",
         img: port05,
         code: "/",
         view: "/",
-        name: "포트폴리오",
+        name: "GSAP게임소개",
     },
     {
         num: "06",
@@ -212,10 +210,7 @@ export const portText = [
 
 
 export const contactText = [
-    {
-        link: "",
-        title: "KAKAO : ",
-    },
+ 
     {
         link: "mailto:etoile929@naver.com",
         title: "mail : etoile929@naver.com",
@@ -223,11 +218,6 @@ export const contactText = [
   ];
 
   export const footerText = [
-    {
-        title: "youtube",
-        desc: "유튜브",
-        link: "/",
-    },
     {
         title: "github",
         desc: "깃헙",
@@ -239,23 +229,9 @@ export const contactText = [
         link: "/",
     },
     {
-        title: "gsap",
-        desc: "GSAP",
+        title: "Linked In",
+        desc: "링크드인",
         link: "/",
     },
-    {
-        title: "react",
-        desc: "리액트",
-        link: "/",
-    },
-    {
-        title: "vue",
-        desc: "뷰",
-        link: "/",
-    },
-    {
-        title: "next",
-        desc: "넥스트",
-        link: "/",
-    },
+    
   ];

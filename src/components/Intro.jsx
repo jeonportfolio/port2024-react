@@ -43,10 +43,10 @@ const Intro = () => {
                 </div>
                 <div className="mini__image2">
                     <div className="img1">
-                        <p>REACT.JS</p>
+                        <p>HTML<br/>&CSS</p>
                     </div>
                     <div className="img2">
-                        <p>REACT.JS</p>
+                        <p>SQL</p>
                     </div>
                 
                    

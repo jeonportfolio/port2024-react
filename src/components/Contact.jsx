@@ -29,7 +29,6 @@ const Contact = () => {
                               >
                                   {contact.title}
                               </a>
-                                  {/* noopener noneferrer는 데이터 유출을 방지하는 것  */}
                             </div>
                     ))}
                     

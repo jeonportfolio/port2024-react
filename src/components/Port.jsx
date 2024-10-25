@@ -16,7 +16,7 @@ const Port = () => {
         const sections = sectionRef.current;
     
         let scrollTween =gsap.to(sections, {
-            xPercent: -140 * (sections.length -1),
+            xPercent: -100 * (sections.length -1),
             // 현재의 넓이는 빼주는 것 
             ease: "none",
             scrollTrigger: {
@@ -40,7 +40,7 @@ const Port = () => {
             <section id="port" ref={horizontalRef}> 
             <div className="port__inner">
                 <div className="port__title">
-                    portfolio <em>포폴 작업물</em>
+                    portfolio <em> ★사진클릭 → 깃허브 이동 or 사이트보기 클릭 → 사이트 이동 </em>
                 </div>
                 <div className="port__wrap">
                     
