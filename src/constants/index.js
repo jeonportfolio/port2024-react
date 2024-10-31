@@ -58,6 +58,15 @@ export const introText = {
 
 
   export const siteText = [
+   
+    {
+        text: ["Documenting", "My Project", "on the Blog"],
+        title: "나의 프로젝트 블로그에 기록하기",
+        view: "https://blog.naver.com/turtleweb",
+        info: [ 
+            "자격증 후기 & AWS & 교내 공모전 & 경제 포스팅 & 사회적약자 대중교통 시스템",
+        ],
+    },
     {
         text: ["REACT.JS", "Wood Mode", "Portfolio Site"],
         title: "React.js 포트폴리오(첫번째 모드<나무 컨셉>)",
@@ -69,19 +78,8 @@ export const introText = {
         ],
     },
     {
-        text: ["make", "site compliant with", "react.js"],
-        title: "리액트를 이용한 사이트 제작",
-        code: "",
-        view: "",
-        info: [
-            "site coding",
-            "production period : ",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
-        ],
-    },
-    {
         text: ["NEXT.JS", "Dark Mode", "Portfolio Site"],
-        title: "Next.js 포트폴리오(두번째 모드<다크 컨셉>)",
+        title: "Next.js 포트폴리오(두번째 모드<무지개 컨셉>)",
         code: "https://github.com/jeonportfolio/port2024-next",
         view: "/",
         info: [
@@ -91,7 +89,7 @@ export const introText = {
     },
     {
         text: ["VUE.JS", "Rainbow Mode", "Portfolio Site"],
-        title: "Vue.js 포트폴리오(세번째 모드<무지개 컨셉>)",
+        title: "Vue.js 포트폴리오(세번째 모드<다크 컨셉>)",
         code: "https://github.com/jeonportfolio/port2024-vue",
         view: "/",
         info: [
@@ -129,8 +127,8 @@ export const portText = [
         title: "블로그 소개 페이지(PC버젼)",
         desc: "HTML/CSS/JAVA SCRIPT를 사용하여 자격증/aws/공모전 등 활동 기록들을 소개하는 페이지입니다. ",
         img: port03,
-        code: "/",
-        view: "/",
+        code: "https://github.com/jeonportfolio/game-intro",
+        view: "https://turtleweb.netlify.app/",
         name: "블로그 소개",
     },
     {
@@ -145,10 +143,10 @@ export const portText = [
     {
         num: "05",
         title: "게임 소개 페이지 (PC버젼)",
-        desc: "GSAP을 활용해 javascript를 이용해 만든 3종 게임 소개 페이지 입니다.",
+        desc: "GSAP을 활용해 javascript를 이용해 만든 3종 게임 소개 페이지 입니다.(새끼거북의 여행 & 지구를 지켜라 & 테트리스)",
         img: port05,
-        code: "/",
-        view: "/",
+        code: "https://github.com/jeonportfolio/game-project",
+        view: "https://gameintro.netlify.app",
         name: "GSAP게임소개",
     },
     {
