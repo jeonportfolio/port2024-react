@@ -60,11 +60,27 @@
             text-decoration: underline;
             text-underline-position: under;
             margin-bottom: 1vw;
-            color:#13035a;
+            color:red;
+        }
+
+        h4 {
+            font-size: 1.3rem;
+            color:#ec7b7b;
         }
         p {
             margin-bottom: 30vh;
             font-size: 1.1rem;
+        }
+        .go {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            transition: all 0.5s;
+        }
+
+        .go:hover {
+           background-color: #f3ede8;
+           color: #000;
         }
     }
 

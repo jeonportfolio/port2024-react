@@ -33,7 +33,7 @@ const Intro = () => {
                         <p>REACT.JS</p>
                     </div>
                     <div className="img2">
-                        <p>REACT NATIVE</p>
+                        <p>JAVA SCRIPT</p>
                     </div>
                 
                    
@@ -51,7 +51,7 @@ const Intro = () => {
                 
                    
                     <div className="img3">
-                        <p>NODE.JS </p>
+                        <p>TYPE SCRIPT</p>
                     </div>
                 </div>
 
