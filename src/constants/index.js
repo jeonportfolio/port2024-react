@@ -146,7 +146,7 @@ export const portText = [
     {
         num: "06",
         title: "영화검색 사이트(반응형)",
-        desc: "OMDb API를 활용해 store&router 개념을 적용하여 자바스크립트 및 타입스크립트로 변환한 사이트입니다.",
+        desc: "OMDb API를 활용해 store&router 개념을 적용하여 자바스크립트 및 타입스크립트로 변환한 사이트입니다",
         img: port06,
         code: "/",
         view: "/",
@@ -155,7 +155,7 @@ export const portText = [
     {
         num: "07",
         title: "영화검색 사이트 & AI챗봇 추가(진행중)",
-        desc: "OMDb API를 활용해 store&router 개념을 적용하여 자바스크립트 및 타입스크립트로 변환한 사이트입니다. chat gpt API활용",
+        desc: "OMDb API를 활용해 store&router 개념을 적용하여 자바스크립트 및 타입스크립트로 변환한 사이트입니다. chat gpt API 도입",
         img: port07,
         code: "/",
         view: "/",
