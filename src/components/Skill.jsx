@@ -33,13 +33,14 @@ const Skill = () => {
 
                         <div>
                             <span>{3}</span> 
-                            <h3>프로젝트 주요스택 </h3><br/>
+                            <h3>프로젝트 주요스택 </h3> <a className="go" href="https://github.com/jeonportfolio" target="blank">깃허브 바로가기</a><br/><br/><br/>
+                           
                             <p > <h4 >★ HTML/CSS/JAVA SCRIPT/GSAP</h4><br/>
                                   → 웹디자인 기능사 사이트(FIGMA 디자인 & JQUERY & JS변환)<br/>
                                   → 블로그 소개 사이트(FIGMA 디자인 & 유튜브 API 연동 & JS 애니메이션)<br/>
                                   → 인턴/ 게임 소개 페이지(GSAP애니메이션) <br/>
                                   → 게임 3종 (javascript)<br/>
-                                  → 영화 정보 검색 사이트(OMDb API & chatgpt api & javascript & typescript)<br/>
+                                  → 영화 정보 검색 사이트(OMDb API & chatgpt api & javascript & typescript)<br/><br/>
                                   → 사회적 약자 대중교통 시스템  ((서버=python & 공공데이터포털 & 카카오 맵 API))<br/><br/>
                                   <a className="go" href="https://github.com/jeonportfolio/python_bus_project" target="blank">코드보기</a><br/><br/>
                                   <h4 >★REACT.JS</h4><br/>
@@ -50,9 +51,9 @@ const Skill = () => {
                                   → 실시간 채팅 (프론트(React.js & mongoDB & websocket사용))<br/><br/>
                                   <a className="go" href="https://github.com/jeonportfolio/CHATTING-APP-client-" target="blank">프론트 코드보기</a>   <a className="go" href="https://github.com/jeonportfolio/CHATTING-APP-client-" target="blank">백엔드 코드보기</a><br/><br/>
                                   → 할일앱 기록 API ((mongoDB & router를 활용한 API관리))<br/><br/>
-                                  <a className="go" href="https://github.com/jeonportfolio/Node.js-api" target="blank">코드보기</a>  <br/><br/>
+                                  <a className="go" href="https://github.com/jeonportfolio/Node.js-api" target="blank">코드보기</a> 
                                  
-
+                                 
                             </p>
                         </div>
              </div>   
