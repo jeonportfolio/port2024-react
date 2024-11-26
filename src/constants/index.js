@@ -5,7 +5,7 @@ import port04 from "../assets/img/port04.jpg"
 import port05 from "../assets/img/port05.jpg"
 import port06 from "../assets/img/port06.jpg"
 import port07 from "../assets/img/port07.jpg"
-
+import port08 from "../assets/img/port08.jpg"
 
 
 export const headerNav = [
@@ -148,8 +148,8 @@ export const portText = [
         title: "영화검색 사이트(반응형)",
         desc: "OMDb API를 활용해 store&router 개념을 적용하여 자바스크립트 및 타입스크립트로 변환한 사이트입니다",
         img: port06,
-        code: "/",
-        view: "/",
+        code: "https://github.com/jeonportfolio/build-movie/tree/main",
+        view: "https://moviebox-zeta.vercel.app/#/",
         name: "영화검색사이트",
     },
     {
@@ -157,8 +157,17 @@ export const portText = [
         title: "영화검색 사이트 & AI챗봇 추가(진행중)",
         desc: "OMDb API를 활용해 store&router 개념을 적용하여 자바스크립트 및 타입스크립트로 변환한 사이트입니다. chat gpt API 도입",
         img: port07,
-        code: "/",
-        view: "/",
+        code: "https://github.com/jeonportfolio/find-movie-typescript",
+        view: "https://find-movie-typescript.vercel.app/#/",
+        name: "영화검색사이트",
+    },
+    {
+        num: "08",
+        title: "사회적약자 대중교통 예약시스템(진행중)",
+        desc: "카카오 맵 & 공공데이터 포털API 사용 java script & jquery & python flask서버 활용",
+        img: port08,
+        code: "https://github.com/jeonportfolio/python_bus_project",
+        view: "https://blog.naver.com/turtleweb/223634853469",
         name: "영화검색사이트",
     }
    
