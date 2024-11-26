@@ -61,31 +61,22 @@ export const introText = {
             "프로젝트 깃허브 & 블로그 기록하기",
         ],
     },
+
     {
-        text: ["REACT.JS", "Wood Mode", "Portfolio Site"],
-        title: "React.js 포트폴리오(첫번째 모드<나무 컨셉>)",
-        code: "https://github.com/jeonportfolio/port2024-react",
-        view: "/",
-        info: [
-            "REACT.js portfolio",
-            "use stack : React.js, SCSS, gsap",
-        ],
-    },
-    {
-        text: ["NEXT.JS", "Dark Mode", "Portfolio Site"],
+        text: ["NEXT.JS", "Rainbow Mode", "Portfolio Site"],
         title: "Next.js 포트폴리오(두번째 모드<무지개 컨셉>)",
         code: "https://github.com/jeonportfolio/port2024-next",
-        view: "/",
+        view: "https://jsuport-next.netlify.app/",
         info: [
             "NEXT.js portfolio",
             "use stack : Next.js, SCSS, gsap",
         ],
     },
     {
-        text: ["VUE.JS", "Rainbow Mode", "Portfolio Site"],
+        text: ["VUE.JS", "Dark Mode", "Portfolio Site"],
         title: "Vue.js 포트폴리오(세번째 모드<다크 컨셉>)",
         code: "https://github.com/jeonportfolio/port2024-vue",
-        view: "/",
+        view: "https://jsuport-vue.netlify.app/",
         info: [
             "VUE.js portfolio",
             "use stack : Vue.js, SCSS, gsap",
