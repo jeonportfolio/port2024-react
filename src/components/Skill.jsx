@@ -42,7 +42,7 @@ const Skill = () => {
                                   → 게임 3종 (javascript)<br/>
                                   → 영화 정보 검색 사이트(OMDb API & chatgpt api & javascript & typescript)<br/>
                                   → 사회적 약자 대중교통 시스템  ((서버=python & 공공데이터포털 & 카카오 맵 API))<br/><br/>
-                                 <br/>
+                
                                   <h4 >★REACT.JS</h4><br/>
                                   → 포트폴리오 사이트 (GSAP & (vue.js,next.js로 변환) & 컴포넌트화 훅사용)<br/>
                                   → 유튜브 사이트 (Rapid Api & SCSS 반응형 & React의 다양한 훅(useParams, useState, useEffect, useLocation)을 활용하여 동적 라우팅)<br/>
