@@ -33,20 +33,20 @@ const Skill = () => {
 
                         <div>
                             <span>{3}</span> 
-                            <h3>프로젝트 주요스택 </h3> <a className="go" href="https://github.com/jeonportfolio" target="blank">깃허브 바로가기</a><br/><br/><br/>
+                            <h3>프로젝트 주요스택 </h3> <a className="go" href="https://github.com/jeonportfolio" target="blank">깃허브 바로가기</a><br/><br/><br/><br/>
                            
                             <p > <h4 >★ HTML/CSS/JAVA SCRIPT/GSAP</h4><br/>
-                                  → 웹디자인 기능사 사이트(FIGMA 디자인 & JQUERY & JS변환)<br/>
-                                  → 블로그 소개 사이트(FIGMA 디자인 & 유튜브 API 연동 & JS 애니메이션)<br/>
-                                  → 인턴/ 게임 소개 페이지(GSAP애니메이션) <br/>
-                                  → 게임 3종 (javascript)<br/>
-                                  → 영화 정보 검색 사이트(OMDb API & chatgpt api & javascript & typescript)<br/>
-                                  → 사회적 약자 대중교통 시스템  ((서버=python & 공공데이터포털 & 카카오 맵 API))<br/><br/>
+                                  → 웹디자인 기능사 사이트(FIGMA 디자인 & JQUERY & JS변환)<br/><br/>
+                                  → 블로그 소개 사이트(FIGMA 디자인 & 유튜브 API 연동 & JS 애니메이션)<br/><br/>
+                                  → 인턴/ 게임 소개 페이지(GSAP애니메이션) <br/><br/>
+                                  → 게임 3종 (javascript)<br/><br/>
+                                  → 영화 정보 검색 사이트(OMDb API & chatgpt api & javascript & typescript)<br/><br/>
+                                  → 사회적 약자 대중교통 시스템  ((서버=python & 공공데이터포털 & 카카오 맵 API))<br/><br/><br/><br/>
                 
                                   <h4 >★REACT.JS</h4><br/>
-                                  → 포트폴리오 사이트 (GSAP & (vue.js,next.js로 변환) & 컴포넌트화 훅사용)<br/>
-                                  → 유튜브 사이트 (Rapid Api & SCSS 반응형 & React의 다양한 훅(useParams, useState, useEffect, useLocation)을 활용하여 동적 라우팅)<br/>
-                                  → 할 일 기록 사이트 (React의 다양한 훅사용 reducer를 활용한 상태관리 및 (emotion, tailwindcss)의 다양한 css 활용)<br/><br/>
+                                  → 포트폴리오 사이트 (GSAP & (vue.js,next.js로 변환) & 컴포넌트화 훅사용)<br/><br/>
+                                  → 유튜브 사이트 (Rapid Api & SCSS 반응형 & React의 다양한 훅(useParams, useState, useEffect, useLocation)을 활용하여 동적 라우팅)<br/><br/>
+                                  → 할 일 기록 사이트 (React의 다양한 훅사용 reducer를 활용한 상태관리 및 (emotion, tailwindcss)의 다양한 css 활용)<br/><br/><br/><br/>
                                   
                                   <h4>★NODE.JS</h4> <br/>
                                   → 실시간 채팅 (프론트(React.js & mongoDB & websocket사용))<br/><br/>
