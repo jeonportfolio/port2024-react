@@ -45,7 +45,8 @@ const Skill = () => {
                                  <br/>
                                   <h4 >★REACT.JS</h4><br/>
                                   → 포트폴리오 사이트 (GSAP & (vue.js,next.js로 변환) & 컴포넌트화 훅사용)<br/>
-                                  → 유튜브 사이트 (Rapid Api & SCSS 반응형 & useParam,useState,useEffect 훅사용)<br/><br/>
+                                  → 유튜브 사이트 (Rapid Api & SCSS 반응형 & React의 다양한 훅(useParams, useState, useEffect, useLocation)을 활용하여 동적 라우팅)<br/>
+                                  → 할 일 기록 사이트 (React의 다양한 훅사용 reducer를 활용한 상태관리 및 (emotion, tailwindcss)의 다양한 css 활용)<br/><br/>
                                   
                                   <h4>★NODE.JS</h4> <br/>
                                   → 실시간 채팅 (프론트(React.js & mongoDB & websocket사용))<br/><br/>
